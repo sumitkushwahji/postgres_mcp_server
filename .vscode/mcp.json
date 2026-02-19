@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "postgres": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/index.js"],
+      "envFile": "${workspaceFolder}/.env"
+    }
+  }
+}
